@@ -5,6 +5,7 @@ div{
 .main{
     background: #ccc;
     width: 80%;
+    position: fixed;
 }
 div.number3{
     background-color: darkcyan;
@@ -15,5 +16,7 @@ div.number3{
 }
 div.number3b{
     background-color: darkblue;
-
+    position: absolute;
+    left: 80px;
+    top: 100px;
 }
