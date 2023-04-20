@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'boronto',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(4, 48, 4);
+    min-height: 100vh;
+    color: #d4d4d4;
+    
+}
+h1{
+    background:#d4d4d4;
+    color:rgb(21, 94, 94);
+    text-align: center;
+    
+}
+p{
+    background: rgb(15, 69, 51);
+    margin: 10px;
+    padding: 5px;
+    border: 2px dashed;
+    font-size: 20px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px; 
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+ 
+}
+.header{
+    background-color: rgb(12, 12, 50);
+    color: white;
+     height: 50px;
+}
+.sidebar{
+    float: left;
+    width: 200px;
+    height: 1000px;
+    color: beige;
+    background-color: black;
+   
+}
+.content,h1{
+    display: inline;
+    width: 600px;
+}
+.sidebar-left{
+  float: right;
+  background-color: darkgray;
+  width: 100px;
+  height: 1000px;
+  display: flex;
+}
+.footer{
+    background-color: rgb(18, 18, 59);
+    height: 50px;
+    margin-top:960px;
+    top: 0;
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+background-color:green;
+color: white;
+font-style: italic;
+font-weight: bold;
+text-align: left;
+/* text-decoration: underline dashed orange; */
+text-indent: 20px;
+letter-spacing:5px ;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
