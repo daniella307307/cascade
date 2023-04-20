@@ -16,4 +16,7 @@ div .number3{
     background-color: blue;
     color: white;
     width: 80%;
+    position: fixed;
+    top: 10vh;
+    left: 10px;
 }

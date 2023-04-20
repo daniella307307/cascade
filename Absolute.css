@@ -1,0 +1,19 @@
+div{
+    border: 2px solid green;
+    font-size: 32px;
+}
+.main{
+    background: #ccc;
+    width: 80%;
+}
+div.number3{
+    background-color: darkcyan;
+    color: aliceblue;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+div.number3b{
+    background-color: darkblue;
+
+}
