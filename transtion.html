@@ -7,19 +7,44 @@
     <title>Document</title>
     <style>
         div{
-            background-color: blue;
+            background-color: rgb(10, 62, 4);
             width:100px;
             height: 100px;
-            transition-property:width;
-            transition-duration: 5s;
+            margin: 10px;
+            /* transition-property:width,height;
+            transition-duration: 10s;
+            transition-delay: 1s;
+            transition-timing-function: ease; */
+            transition: width 5s,height 5s, background-color 5s 2s;
         }
         div:hover{
-            width:400px;
-            height: 300px;
+            width:100vw;
+            background-color: rgb(29, 199, 54);
+
+        }
+        #div1{
+            transition-timing-function: ease;
+        }
+        #div2{
+            transition-timing-function: ease-in;
+        }
+        #div3{
+            transition-timing-function: ease-in-out;
+        }
+         #div4{
+            transition-timing-function: linear;
+        }
+        #div5{
+            transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
         }
     </style>
 </head>
 <body>
     <div></div>
+    <div id="div1">Div 1 ease</div>
+    <div id="div2">Div 2 ease-in</div>
+    <div id="div3">Div 3 ease-in-out</div>
+    <div id="div4">Div 4 linear</div>
+    <div id="div5">Div 5 cubic-bezier</div>
 </body>
 </html>
