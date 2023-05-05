@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #ccc;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background: goldenrod;
+            animation-name: dance;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            top: 5px;
+            left:5px;
+            animation-delay: 1s;
+            animation-duration:10s;
+            margin: 20px;
+            
+        }
+        /* @keyframes anything{
+         from{
+          width:10px;
+          height:10px;
+          background: yellow;
+        }to{
+          width:500px;
+          height: 500px;
+          background-color: gold;
+         }
+        } */
+        @keyframes dance{
+            0%{
+            background-color: aqua;
+            top:5px;
+            left:5px;
+            transform: rotate(10deg);
+            }
+            20%{
+            background-color: yellow;
+            transform: rotate(30deg);
+            top:80vh;
+            left: 20vw;
+            }
+            40%{
+                background-color: rgb(54, 18, 101);
+            transform: rotate(90deg);
+            top:5px;
+            left: 40vw;
+            }
+            50%{
+            background-color: rgb(173, 18, 83);
+           transform: rotate(180deg);
+             top:80vh;
+            left:60vw;
+            }
+            75%{
+             bottom: 20vh;
+             right: 200px;
+             background-color:gray;
+             transform: rotate(360deg);
+            }
+            100%{
+              top:5vh;
+              left: 90vw;
+              border-radius: 50%;
+              transform: rotate(75deg);
+              background-color: gold;
+            }
+        }
+        #div1{
+            animation-delay: 2s;
+            animation-direction:normal ;
+        }
+        #div2{
+            animation-delay: 3s;
+            animation-direction:reverse;
+        }
+        #div3{
+            animation-delay: 4s;
+            animation-direction:alternate;
+        }
+        #div4{
+            animation-delay: 5s;
+            animation-direction:alternate-reverse;
+        }
+        #div5{
+            animation-delay: 6s;
+            animation-direction:unset;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div id="div1">Div 1</div>
+    <div id="div2">Div 2</div>
+    <div id="div3">Div 3</div>
+    <div id="div4">Div 4</div>
+    <div id="div5">Div 5</div>
+</body>
+</html>
